@@ -36,7 +36,8 @@ This configuration is ideal when:
 
 ***
 
-## Architecture Overview (Unfortunately, this diagram is not ideal, as the arrows leading away from localhost should of course also go through the tunnel)
+## Architecture Overview 
+-Unfortunately, this diagram is not ideal, as the arrows leading away from localhost should of course also go through the tunnel-
 
 ```
 Local Machine                SSH Tunnel              Remote Server
