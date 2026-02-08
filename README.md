@@ -554,16 +554,23 @@ chmod +x tunnel-auto-reconnect.sh
 ## Summary: What Works
 
 ✅ **VPN Connection** - Base connectivity to remote server
+
 ✅ **SSH Key Authentication** - Required by Workbench[^1]
+
 ✅ **3-Port SSH Tunnel** - Service (10005), Proxy (10004), SSH (10022)
+
 ✅ **contexts.json Configuration** - remote-tunnel context with hostname: 127.0.0.1
+
 ✅ **Desktop App** - Uses remote-tunnel location through tunnel
+
 ✅ **wb-svc Service** - Runs on remote server port 10001
 
 ## Limitations
 
 ⚠️ **Tunnel may disconnect** - VPN keepalive issues (use autossh for auto-reconnection)
+
 ⚠️ **Manual setup required** - Daily VPN + Tunnel + wb-svc startup needed
+
 ⚠️ **VSCode more stable** - Consider using VSCode Remote-SSH for longer development sessions
 
 ***
