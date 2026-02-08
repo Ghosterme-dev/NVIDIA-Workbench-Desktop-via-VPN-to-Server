@@ -28,10 +28,15 @@ This configuration is ideal when:
 ## Prerequisites
 
 ✅ VPN client installed and configured (e.g., WireGuard, OpenVPN)
+
 ✅ VPN connection stable enough to maintain basic connectivity
+
 ✅ SSH key-based authentication configured (password auth not supported by Workbench)[^1]
+
 ✅ VSCode with Remote-SSH Extension (recommended for verification)
+
 ✅ NVIDIA AI Workbench Desktop App installed on local machine
+
 ✅ NVIDIA AI Workbench installed on remote server
 
 ***
